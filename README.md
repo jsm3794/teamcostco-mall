@@ -17,11 +17,8 @@ Spring Boot와 Thymeleaf 기반의 쇼핑몰 플랫폼입니다.
 🗂️ 프로젝트 구조
 
 ├─ .mvn/               # Maven Wrapper
-
 ├─ mvnw, mvnw.cmd      # 빌드 스크립트
-
 ├─ pom.xml             # Maven 설정
-
 ├─ src/main/java       # 애플리케이션 소스 코드
 │   └─ com.ezentwix.teamcostco
 │       ├─ controller  # 요청 처리 컨트롤러
