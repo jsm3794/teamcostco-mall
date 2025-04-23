@@ -14,24 +14,8 @@ Spring Boot와 Thymeleaf 기반의 쇼핑몰 플랫폼입니다.
 주문/결제: 주문 생성, 결제 처리 (외부 PG 연동)
 주문 내역: 과거 주문 조회, 상세 정보 확인
 
-🗂️ 프로젝트 구조
-
-├─ .mvn/               # Maven Wrapper
-├─ mvnw, mvnw.cmd      # 빌드 스크립트
-├─ pom.xml             # Maven 설정
-├─ src/main/java       # 애플리케이션 소스 코드
-│   └─ com.ezentwix.teamcostco
-│       ├─ controller  # 요청 처리 컨트롤러
-│       ├─ service     # 비즈니스 로직
-│       └─ mapper      # MyBatis 매퍼 인터페이스
-├─ src/main/resources
-│   ├─ static/         # CSS, JS, 이미지 등 정적 리소스
-│   ├─ templates/      # Thymeleaf 뷰 템플릿
-│   ├─ mapper/         # MyBatis XML 매퍼
-└───── logback-spring.xml, log4jdbc.log4j2.properties 등 설정
 
 🛠️ 기술 스택
-
 언어: Java 17
 프레임워크: Spring Boot, Spring Web, Spring WebFlux, Spring Data JDBC
 템플릿 엔진: Thymeleaf
